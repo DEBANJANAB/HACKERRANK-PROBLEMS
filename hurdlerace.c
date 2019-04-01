@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-	int n,k,c;
+	int n,k,c,a[100];
 	scanf("%d %d", &n, &k);
 	for(int i=0;i<n;i++){
-		int a[100];
+		
 		scanf("%d",&a[i]);
 	}
 	int temp=a[0];
@@ -13,8 +13,8 @@ int main(){
 	}
 	c=temp-k;
 	if(c<0){
-		c=0	
+		c=0;	
 	}
 	printf("%d\n",c);
-	return 0
+	return 0;
 }

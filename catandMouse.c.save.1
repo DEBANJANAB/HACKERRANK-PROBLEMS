@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+	int q,x,y,z;
+	
+	scanf("%d",&q);
+	scanf("%d %d %d", &x, &y, &z);
+		if(abs(z-x) < abs(z-y)){
+			printf("Cat A %d  %d",abs(z-x),abs(z-y));
+		}
+		if(z-y < z-x){
+			printf("Cat B");
+		}
+		if(z-x == z-y){
+			printf("Mouse C");
+		}
+		return 0;
+	} 
