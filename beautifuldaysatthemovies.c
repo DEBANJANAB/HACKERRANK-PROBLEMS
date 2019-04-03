@@ -10,11 +10,11 @@ int rev(int n){
 }
 int main() {
 		int i,j,count=0;
-		long int k;
+		 int k;
 		scanf("%d %d %d", &i, &j, &k);
 		for(int a=i;a<=j;a++){
-			double div;
-			if((div=(a-rev(a))%k)==0)
+			
+			if(((a-rev(a))%k)==0)
 				count++;
 
 		}
